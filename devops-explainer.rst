@@ -42,7 +42,6 @@ Technologies
 Containers
 ----------
 
-
 * `Docker`_
 
 
@@ -53,13 +52,14 @@ Virtual Machines
 * VMware
 
 
-Code-running-things
--------------------
+Orchestration / Deployment Management
+-------------------------------------
 
 * Ansible: an open-source automation engine that automates cloud provisioning, configuration management, and application deployment. [Wikipedia: `Ansible <https://en.wikipedia.org/wiki/Ansible_(software)>`_]
-
 * Chef
 * Puppet
+* `SaltStack`_
+* Fabric
 
 
 Container formats
@@ -73,7 +73,7 @@ Container runtimes
 ------------------
 
 * `Docker Engine`_
-* rkt
+* `rkt`_
 
 
 Container orchestration
@@ -114,7 +114,10 @@ More things
 Other things to put someplace
 -----------------------------
 
-* fleet
+* AMI
+* Atlas
+* AWS
+* `Flannel`_
 * Jenkins
 * `Nomad`_
 * `Packer`_
@@ -142,10 +145,13 @@ Other sources of information
 .. _Docker Machine: https://docs.docker.com/machine/
 .. _Docker Registry: https://github.com/docker/distribution
 .. _Docker Swarm: https://docs.docker.com/swarm/
+.. _Flannel: https://coreos.com/flannel/docs/latest/
 .. _Kitematic: https://kitematic.com/
 .. _Nomad: https://www.nomadproject.io/
 .. _Open Container Initiative: https://www.opencontainers.org/
 .. _Packer: https://www.packer.io/
+.. _rkt: https://coreos.com/rkt/
+.. _Salt Stack: https://saltstack.com/
 .. _Terraform: https://www.terraform.io/
 .. _Vagrant: https://www.vagrantup.com/
 .. _Vault: https://www.vaultproject.io/
