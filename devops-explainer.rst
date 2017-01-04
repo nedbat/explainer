@@ -151,7 +151,7 @@ Other sources of information
 .. _Open Container Initiative: https://www.opencontainers.org/
 .. _Packer: https://www.packer.io/
 .. _rkt: https://coreos.com/rkt/
-.. _Salt Stack: https://saltstack.com/
+.. _SaltStack: https://saltstack.com/
 .. _Terraform: https://www.terraform.io/
 .. _Vagrant: https://www.vagrantup.com/
 .. _Vault: https://www.vaultproject.io/
