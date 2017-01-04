@@ -104,3 +104,11 @@ Distributed configuration stores
 * Consul
 * etcd
 * zookeeper
+
+
+Other things to put someplace
+-----------------------------
+
+* Vagrant
+* Packer
+
