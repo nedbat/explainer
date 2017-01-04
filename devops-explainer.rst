@@ -43,7 +43,7 @@ Containers
 ----------
 
 
-* Docker
+* `Docker`_
 
 
 Virtual Machines
@@ -66,14 +66,14 @@ Container formats
 -----------------
 
 * Docker Image
-* OCI (open container initiative)
+* `Open Container Initiative`_
 
 
 Container runtimes
 ------------------
 
-* Docker Engine
-* Rocket
+* `Docker Engine`_
+* rkt
 
 
 Container orchestration
@@ -82,13 +82,13 @@ Container orchestration
 * Kubernetes
 * Mesos
 * Fleet
-* Docker Swarm
+* `Docker Swarm`_
 
 
 Provisioning
 ------------
 
-* Docker Compose
+* `Docker Compose`_
 * Ansible-container
 
 
@@ -102,7 +102,7 @@ Deployment environments
 Distributed configuration stores
 --------------------------------
 
-* Consul
+* `Consul`_
 * etcd
 * zookeeper
 
@@ -110,14 +110,42 @@ Distributed configuration stores
 More things
 ===========
 
+
 Other things to put someplace
 -----------------------------
 
-* Vagrant
-* Packer
-* Terraform
+* fleet
+* Jenkins
+* `Nomad`_
+* `Packer`_
+* `Terraform`_
+* Travis
+* `Vagrant`_
+* `Vault`_
+* `Docker Registry`_
+* `Docker Machine`_
+* `Kitematic`_
+
 
 Other sources of information
 ----------------------------
 
 * https://coreos.com/docs/
+
+
+.. End of the doc.  Links go down here:
+
+.. _Consul: https://www.consul.io/
+.. _Docker: https://docs.docker.com/
+.. _Docker Compose: https://docs.docker.com/compose/
+.. _Docker Engine: https://www.docker.com/products/docker-engine
+.. _Docker Machine: https://docs.docker.com/machine/
+.. _Docker Registry: https://github.com/docker/distribution
+.. _Docker Swarm: https://docs.docker.com/swarm/
+.. _Kitematic: https://kitematic.com/
+.. _Nomad: https://www.nomadproject.io/
+.. _Open Container Initiative: https://www.opencontainers.org/
+.. _Packer: https://www.packer.io/
+.. _Terraform: https://www.terraform.io/
+.. _Vagrant: https://www.vagrantup.com/
+.. _Vault: https://www.vaultproject.io/
