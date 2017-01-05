@@ -23,7 +23,9 @@ chroot
   numquam eius modi tempora incidunt. 
 
 container
-  Operating-system-level virtualization is a server virtualization method in which the kernel of an operating system allows the existence of multiple isolated user-space instances, instead of just one. Such instances, which are sometimes called containers, software containers, virtualization engines or jails, may look and feel like a real server from the point of view of its owners and users. [Wikipedia: `Operating-system-level virtualization <https://en.wikipedia.org/wiki/Operating-system-level_virtualization>`_]
+  Operating-system-level virtualization is a server virtualization method in which the kernel of an operating system allows the existence of multiple isolated user-space instances, instead of just one. Such instances, which are sometimes called containers, software containers, virtualization engines or jails, may look and feel like a real server from the point of view of its owners and users. [`W <https://en.wikipedia.org/wiki/Operating-system-level_virtualization>`__]
+
+  `What even is a container? <http://jvns.ca/blog/2016/10/10/what-even-is-a-container/>`_
 
 LXC
   lorem ipsum quia dolor sit amet consectetur adipisci velit, sed quia non
@@ -55,7 +57,7 @@ Virtual Machines
 Orchestration / Deployment Management
 -------------------------------------
 
-* Ansible: an open-source automation engine that automates cloud provisioning, configuration management, and application deployment. [Wikipedia: `Ansible <https://en.wikipedia.org/wiki/Ansible_(software)>`_]
+* Ansible: an open-source automation engine that automates cloud provisioning, configuration management, and application deployment. [`W <https://en.wikipedia.org/wiki/Ansible_(software)>`__]
 * Chef
 * Puppet
 * `SaltStack`_
