@@ -44,7 +44,7 @@ Technologies
 Containers
 ----------
 
-* `Docker`_
+* Docker_
 
 
 Virtual Machines
@@ -57,10 +57,10 @@ Virtual Machines
 Orchestration / Deployment Management
 -------------------------------------
 
-* Ansible: an open-source automation engine that automates cloud provisioning, configuration management, and application deployment. [`W <https://en.wikipedia.org/wiki/Ansible_(software)>`__]
+* Ansible_: an open-source automation engine that automates cloud provisioning, configuration management, and application deployment. [`W <https://en.wikipedia.org/wiki/Ansible_(software)>`__]
 * Chef
 * Puppet
-* `SaltStack`_
+* SaltStack_
 * Fabric
 
 
@@ -75,15 +75,15 @@ Container runtimes
 ------------------
 
 * `Docker Engine`_
-* `rkt`_
+* rkt_
 
 
 Container orchestration
 -----------------------
 
-* Kubernetes
-* Mesos
-* Fleet
+* Kubernetes_: a platform for automating deployment, scaling, and operations of application containers across clusters of hosts, providing container-centric infrastructure.
+* Mesos_
+* Fleet_
 * `Docker Swarm`_
 
 
@@ -91,7 +91,7 @@ Provisioning
 ------------
 
 * `Docker Compose`_
-* Ansible-container
+* `Ansible Container`_
 
 
 Deployment environments
@@ -104,9 +104,9 @@ Deployment environments
 Distributed configuration stores
 --------------------------------
 
-* `Consul`_
-* etcd
-* zookeeper
+* Consul_
+* etcd_
+* zookeeper_
 
 
 More things
@@ -119,17 +119,17 @@ Other things to put someplace
 * AMI
 * Atlas
 * AWS
-* `Flannel`_
+* Flannel_
 * Jenkins
-* `Nomad`_
-* `Packer`_
-* `Terraform`_
+* Nomad_
+* Packer_
+* Terraform_
 * Travis
-* `Vagrant`_
-* `Vault`_
+* Vagrant_
+* Vault_
 * `Docker Registry`_
 * `Docker Machine`_
-* `Kitematic`_
+* Kitematic_
 
 
 Other sources of information
@@ -140,6 +140,8 @@ Other sources of information
 
 .. End of the doc.  Links go down here:
 
+.. _Ansible: http://docs.ansible.com/ansible/index.html
+.. _Ansible Container: https://www.ansible.com/ansible-container
 .. _Consul: https://www.consul.io/
 .. _Docker: https://docs.docker.com/
 .. _Docker Compose: https://docs.docker.com/compose/
@@ -147,8 +149,12 @@ Other sources of information
 .. _Docker Machine: https://docs.docker.com/machine/
 .. _Docker Registry: https://github.com/docker/distribution
 .. _Docker Swarm: https://docs.docker.com/swarm/
+.. _etcd: https://coreos.com/etcd/docs/latest/
 .. _Flannel: https://coreos.com/flannel/docs/latest/
+.. _Fleet: https://coreos.com/fleet/docs/latest/
 .. _Kitematic: https://kitematic.com/
+.. _Kubernetes: http://kubernetes.io/
+.. _Mesos: http://mesos.apache.org/
 .. _Nomad: https://www.nomadproject.io/
 .. _Open Container Initiative: https://www.opencontainers.org/
 .. _Packer: https://www.packer.io/
@@ -157,3 +163,4 @@ Other sources of information
 .. _Terraform: https://www.terraform.io/
 .. _Vagrant: https://www.vagrantup.com/
 .. _Vault: https://www.vaultproject.io/
+.. _zookeeper: https://zookeeper.apache.org/
