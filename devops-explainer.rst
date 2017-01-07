@@ -27,12 +27,6 @@ container
 
   `What even is a container? <http://jvns.ca/blog/2016/10/10/what-even-is-a-container/>`_
 
-LXC
-  lorem ipsum quia dolor sit amet consectetur adipisci velit, sed quia non
-  numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam
-  quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
-  ullam corporis suscipit laboriosam. 
-
 virtualization
   Creating a number of virtual machines on one physical machine.
 
@@ -45,6 +39,7 @@ Containers
 ----------
 
 * Docker_
+* LXD_
 
 
 Virtual Machines
@@ -136,6 +131,7 @@ Other sources of information
 ----------------------------
 
 * https://coreos.com/docs/
+* https://linuxcontainers.org/
 
 
 .. End of the doc.  Links go down here:
@@ -154,6 +150,7 @@ Other sources of information
 .. _Fleet: https://coreos.com/fleet/docs/latest/
 .. _Kitematic: https://kitematic.com/
 .. _Kubernetes: http://kubernetes.io/
+.. _LXD: https://linuxcontainers.org/lxd/introduction/
 .. _Mesos: http://mesos.apache.org/
 .. _Nomad: https://www.nomadproject.io/
 .. _Open Container Initiative: https://www.opencontainers.org/
