@@ -28,7 +28,7 @@ container
   `What even is a container? <http://jvns.ca/blog/2016/10/10/what-even-is-a-container/>`_
 
 virtualization
-  Creating a number of virtual machines on one physical machine.
+  Creating a number of virtual computers on one physical computer.
 
 
 Technologies
@@ -38,12 +38,16 @@ Technologies
 Containers
 ----------
 
+Containers provide virtual computers by virtualizing at the process, file system and permissions level: each machine has a separate set of these user-level constructs, but share the lower-level operating system.  This means less overhead per machine.
+
 * Docker_
 * LXD_
 
 
 Virtual Machines
 ----------------
+
+Virtual Machines provide virtual computers by virtualizing at the hardware level: each machine believes it has control of the hardware.  Each virtual machine needs a complete operating system.  This is more overhead for each machine, but also means that you can mix operating systems: a Windows host can run a Linux guest.
 
 * Virtualbox
 * VMware
