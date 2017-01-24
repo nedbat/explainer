@@ -38,7 +38,7 @@ Technologies
 Containers
 ----------
 
-Containers provide virtual computers by virtualizing at the process, file system and permissions level: each machine has a separate set of these user-level constructs, but share the lower-level operating system.  This means less overhead per machine.
+Containers provide virtual isolated systems by virtualizing at the process, file system and permissions level: each machine has a separate set of these user-level constructs, but share the lower-level kernel.  This means less overhead per machine.  Containers are smaller and more modular than a full virtual machine.
 
 * Docker_
 * LXD_
@@ -47,7 +47,7 @@ Containers provide virtual computers by virtualizing at the process, file system
 Virtual Machines
 ----------------
 
-Virtual Machines provide virtual computers by virtualizing at the hardware level: each machine believes it has control of the hardware.  Each virtual machine needs a complete operating system.  This is more overhead for each machine, but also means that you can mix operating systems: a Windows host can run a Linux guest.
+Virtual Machines provide virtual isolated systems by virtualizing at the hardware level: each machine believes it has control of the hardware.  Each virtual machine needs a complete operating system.  This is more overhead for each machine, but also means that you can mix operating systems: a Windows host can run a Linux guest.
 
 * Virtualbox
 * VMware
@@ -115,9 +115,11 @@ More things
 Other things to put someplace
 -----------------------------
 
-* AMI
+* AMI: Amazon Machine Image, a virtual machine image specifically for Amazon
+  EC2.
 * Atlas
-* AWS
+* AWS: Amazon Web Services, a large collection of operational services from
+  Amazon: EC2, S3.
 * Flannel_
 * Jenkins
 * Nomad_
